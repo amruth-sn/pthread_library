@@ -39,5 +39,7 @@ Notes:
 - Lastly, sem_destroy() sets the blocked_count of an uninitialized semaphore to 0. This is to ensure that the semaphore has only been initialized already by sem_init() and is not one that is uninitialized. This will also ensure that this semaphore is unable to be used again until sem_init() has been called again.
 
 Please let me know if there are any bugs!
+
 Thank you,
+
 Amruth Niranjan
