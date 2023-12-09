@@ -1,4 +1,4 @@
-#include "ec440threads.h"
+#include "pthreader.h"
 #include <pthread.h>
 #include <setjmp.h>
 #include <stdlib.h>
